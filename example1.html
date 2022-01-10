@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Title</title>
+    </head>
+    <body>
+        <div style="border:1px solid black" class="example"><p>Part 1</p>
+        <script type="text/javascript">
+            debugger; // Javascript 1
+            document.getElementsByTagName('p')[0].innerText += ": About browsers"
+        </script>
+        <p>Browsers process html from top to bottom.</p>
+        <script tyep="text/javascript">
+            debugger; // Javascript 2
+        </script>
+        <style type="text/css">
+            /* CSS 1 */
+            p{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+        </style>
+        <p>
+            Footer
+        </p>
+    </body>
+</html>
